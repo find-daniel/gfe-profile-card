@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <main className="flex justify-center">
       {/* Card Container */}
-      <div className="mt-[120px] flex w-[340px] flex-col items-center rounded-md bg-white px-4 py-6 text-center shadow-md">
+      <div className="mt-[200px] flex w-[340px] flex-col items-center rounded-md bg-white px-4 py-6 text-center shadow-md">
         {/* Profile Photo */}
         <Image className="mb-6" src={'/profile.png'} width={64} height={64} alt="user profile photo" />
         {/* Profile Info */}
